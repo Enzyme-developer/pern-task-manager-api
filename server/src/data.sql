@@ -12,8 +12,3 @@ CREATE TABLE users (
   email VARCHAR(255) PRIMARY KEY,
   hashed_password VARCHAR(255)
 );
-
-CREATE TABLE ballers (
-  email VARCHAR(255) PRIMARY KEY,
-  hashed_password VARCHAR(255)
-);
